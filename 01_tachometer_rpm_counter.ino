@@ -19,7 +19,7 @@ void loop() {
 
   previous_state = state;
   delay(100);
-  Serial.println((previous_state - state)/0.1);
+  Serial.println((previous_state - state)/0.1/18.0);
 
 }
 
